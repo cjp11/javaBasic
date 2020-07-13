@@ -7,6 +7,7 @@ public class Printer {
 	int cntofPaper;			//ÀÎ¼â ¸Å¼ö
 	int restofPaper;		//Á¾ÀÌ ÀÜ·®
 	void print() {
+		restofPaper--;
 		
 	}
 }
