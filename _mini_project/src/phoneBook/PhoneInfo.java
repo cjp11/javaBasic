@@ -13,6 +13,9 @@ class PhoneInfo
 	String phoneNumber;
 	String birth;
 	
+	public PhoneInfo() {	// update() 때문에 만들어줌.
+		
+	}
 	
 	public PhoneInfo(String name, String num, String birth)
 	{
