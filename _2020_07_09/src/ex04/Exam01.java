@@ -32,7 +32,7 @@ public class Exam01 {
 		System.out.println(user.count);
 		*/
 		
-		
+		sc.close();
 		 
 	}
 

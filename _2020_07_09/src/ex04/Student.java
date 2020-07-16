@@ -8,6 +8,8 @@ public class Student extends User{
 	static {
 		System.out.println("Student 클래스 로딩");
 	}
-	
+	Student() {
+		System.out.println("Studet()생성자 호출");
+	}
 	 
 }
