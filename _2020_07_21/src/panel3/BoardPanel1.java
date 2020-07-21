@@ -15,6 +15,7 @@ import java.awt.event.ItemListener;
 import java.util.List;
 
 public class BoardPanel1 extends Panel implements ActionListener{
+	
 	TextArea listTA;
 	TextField titleTF;
 	TextField passwordTF;
