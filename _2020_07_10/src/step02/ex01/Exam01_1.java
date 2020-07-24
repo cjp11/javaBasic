@@ -13,9 +13,9 @@ public class Exam01_1 /*extends Object*/{
 	public static void main(String[] args) {
 		A r = new A();
 		System.out.println(r.var1);
-		Object obj = new A();
+		Object obj = new A();		//A 인스턴스 자원을 사용하고 싶기때문에
 
-		System.out.println(((A)obj).var1);
+		System.out.println(((A)obj).var1);	// 강제 형변환
 	}
 
 }

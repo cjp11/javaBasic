@@ -15,7 +15,7 @@ public class Exam01_3 {
 		System.out.println("r1.var1: " + r1.var1);
 		System.out.println("r2.var1: " + r2.var1);
 		
-		if(r1.equals(r2)) {	// equals를 재정의 해보자 
+		if(r1.equals(r2)) {	// equals를 재정의 해보자 , A2 class의 equals()
 			System.out.println("r1.equals(r2)");
 		}
 		
@@ -24,7 +24,7 @@ public class Exam01_3 {
 		if(s1 == s2) {
 			System.out.println("s1 == s2");
 		}
-		if(s1.equals(s2)) {
+		if(s1.equals(s2)) {			// String class의 equals()
 			System.out.println("s1.equals(s2)");
 		}
 		

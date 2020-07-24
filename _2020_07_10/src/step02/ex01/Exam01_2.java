@@ -2,20 +2,20 @@ package step02.ex01;
 
 /*
  * Object 클래스 - toString(), hashCode(), equals(), getClass()
- * ->toString(): 인스턴스의 정보 리턴
+ * ->toString(): '인스턴스'의 정보 리턴
  * - 기본: 클래스@인스턴스식별번호(hashcode)
  * - 인스턴스의 간략 정보를 리턴할 때 사용한다.
  * - 기본으로 출력하는 내용은 사용하는데 무의미 할 수 있다.
  * - 맘에 안들면 재정의해서 사용한다.
  * 
- * ->hashCode(): 인스턴스의 식별 코드 리턴
+ * ->hashCode(): '인스턴스'의 식별 코드 리턴
  * - 인스턴스를 맵에 저장할 때 태그로 사용한다.
  * - 인스턴스끼리 값을 비교할 때 사용한다.
  * 
- * ->equals(): 두 인스턴스의 비교 결과를 리턴
+ * ->equals(): 두 '인스턴스'의 비교 결과를 리턴
  * - 기본: 같은 인스턴스이면 True, 아니면 false
  * 
- * ->getClass(): 인스턴스가 어떤 크래스인지 그 정보를 리턴한다.
+ * ->getClass(): '인스턴스'가 어떤 클래스인지 그 정보를 리턴한다.
  * 
  * ->finalize(): 가비지 컬렉터가 인스턴스를 메모리에서 해제하기 전에 호출하는 메서드.
  * 				 이 매서드에서는 보통 인스턴스가 사용했던 자원을 해제시키는 작업을 한다.
@@ -53,7 +53,8 @@ public class Exam01_2 {
 		
 		Class c1 = r1.getClass();	//r1의 주소를 가져옴
 		Class c2 = r2.getClass();
-		
+		System.out.println(c1);
+		System.out.println(c2);
 		if(c1 == c2) {
 			System.out.println("c1==c2");
 		}
